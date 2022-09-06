@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": false,
+    "allowJs": true,
+    
+    "typeRoots": ["./node_modules/@types"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
