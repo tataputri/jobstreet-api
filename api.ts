@@ -25,8 +25,8 @@ export default async (req: Request, res: Response, next: NextFunction) => {
 
   const today = new Date();
   const expiredDate = new Date(apiKeyStatus.expired);
-  console.log(`Expired Date : ${expiredDate}`)
-  console.log(`Today Date : ${today}`)
+  // console.log(`Expired Date : ${expiredDate}`)
+  // console.log(`Today Date : ${today}`)
 
 
   if (apiKeyStatus.status === false) {
