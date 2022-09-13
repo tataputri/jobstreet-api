@@ -7,8 +7,8 @@ import apicache from 'apicache'
 dotenv.config()
 const app = express()
 let cache = apicache.middleware
-app.use(cache('2 minutes'))
 app.use(checkApi)
+app.use(cache('2 minutes'))
 
 app.use('/api', router())
 // createRouter(app)

@@ -5,6 +5,7 @@ import axios from "axios"
 
 export default async (req: Request, res: Response, next: NextFunction) => {
 
+  // console.log(req.headers)
   if (!req.headers.apikey) {
     return res.send({
       success: false,
